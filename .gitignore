@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# SQLite DB (agar ishlatsang)
+db.sqlite3
+
+# Heroku / deployment
+Procfile
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.mypy_cashe/
+.dmypy.json
+dmypy.json
+
+
+# Migrations cache (ixtiyoriy)
+*/migrations/__pycache__/
