@@ -1,10 +1,15 @@
-BOT_TOKEN = '8597897758:AAH2arzRffSE0X39wm96jr0zTAFwAQbBG78'
-ADMINS = [7186021574, 8538186513] # adminlar ro'yxati
+from dotenv import load_dotenv
+import os
 
-DB_USER = 'postgres'
-DB_PASS = '1234'
-DB_HOST = 'localhost'
-DB_NAME = 'shop_bot'
+load_dotenv()
 
-PROVIDER_TOKEN = '371317599:TEST:1773570289965'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMINS = os.getenv("ADMINS") # adminlar ro'yxati
+
+DB_USER = os.getenv("DB_USER")
+DB_PASS = os.getenv("DB_PASS")
+DB_HOST = os.getenv("DB_HOST")
+DB_NAME = os.getenv("DB_NAME")
+
+PROVIDER_TOKEN = os.getenv("PROVIDER_TOKEN")
 
